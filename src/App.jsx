@@ -1,12 +1,13 @@
 import React from 'react'
 
+import { Container } from './AppStyles'
 import Home from './components/pages/home/home'
 
 function App() {
   return (
-    <div>
+    <Container>
       <Home />
-    </div>
+    </Container>
   )
 }
 
