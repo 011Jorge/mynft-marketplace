@@ -3,6 +3,7 @@ import React from 'react'
 import iconArrow from '../../../img/arrow.svg'
 import iconNft from '../../../img/illustrationNft.svg'
 import Navbar from '../../layout/navbar/navbar'
+import SelectCurrency from '../../layout/select/select'
 
 import {
   ContainerHome,
@@ -12,6 +13,7 @@ import {
   ContainerItens,
   IllustrationNft,
   ContainerCards,
+  NavbarCards,
   H1Cards,
 } from './homeStyles'
 
@@ -37,7 +39,10 @@ function Home() {
         <IllustrationNft src={iconNft} alt="icon-illustration-nft" />
       </ContainerIntroduction>
       <ContainerCards>
-        <H1Cards>Hot Auctions </H1Cards>
+        <NavbarCards>
+          <H1Cards>Hot Auctions</H1Cards>
+          <SelectCurrency />
+        </NavbarCards>
       </ContainerCards>
     </ContainerHome>
   )

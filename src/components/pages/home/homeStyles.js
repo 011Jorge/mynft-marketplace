@@ -89,12 +89,21 @@ export const IllustrationNft = styled.img`
 `
 
 export const ContainerCards = styled.div`
+  padding-top: 60px;
+  padding-left: 150px;
   height: 100vh;
   background-color: #edf1ff;
 `
 
+export const NavbarCards = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+`
+
 export const H1Cards = styled.h1`
   width: 208px;
+  margin-right: 30px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
