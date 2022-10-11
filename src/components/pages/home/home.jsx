@@ -11,6 +11,8 @@ import {
   ButtonExplore,
   ContainerItens,
   IllustrationNft,
+  ContainerCards,
+  H1Cards,
 } from './homeStyles'
 
 function Home() {
@@ -34,6 +36,9 @@ function Home() {
         </ContainerItens>
         <IllustrationNft src={iconNft} alt="icon-illustration-nft" />
       </ContainerIntroduction>
+      <ContainerCards>
+        <H1Cards>Hot Auctions </H1Cards>
+      </ContainerCards>
     </ContainerHome>
   )
 }

@@ -87,3 +87,23 @@ export const IllustrationNft = styled.img`
     }
   }
 `
+
+export const ContainerCards = styled.div`
+  height: 100vh;
+  background-color: #edf1ff;
+`
+
+export const H1Cards = styled.h1`
+  width: 208px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(256.8deg, #0698f9 13.5%, #f906f9 87.25%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+`
