@@ -1,8 +1,8 @@
 import React from 'react'
 
-import iconLogo from '../../../img/logo.svg'
-import iconSearch from '../../../img/search.svg'
-import iconThreePoint from '../../../img/threePoint.svg'
+import iconLogo from '../../../img/itens/logo.svg'
+import iconSearch from '../../../img/itens/search.svg'
+import iconThreePoint from '../../../img/itens/threePoint.svg'
 
 import {
   ContainerNavbar,

@@ -1,7 +1,8 @@
 import React from 'react'
 
-import iconArrow from '../../../img/arrow.svg'
-import iconNft from '../../../img/illustrationNft.svg'
+import iconArrow from '../../../img/itens/arrow.svg'
+import iconNft from '../../../img/itens/illustrationNft.svg'
+import Cards from '../../layout/cards/cards'
 import Navbar from '../../layout/navbar/navbar'
 import SelectCurrency from '../../layout/select/select'
 
@@ -43,6 +44,7 @@ function Home() {
           <H1Cards>Hot Auctions</H1Cards>
           <SelectCurrency />
         </NavbarCards>
+        <Cards />
       </ContainerCards>
     </ContainerHome>
   )
