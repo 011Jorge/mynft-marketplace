@@ -20,6 +20,41 @@ export const Card = styled.div`
   box-shadow: 6px 12px 18px rgba(102, 146, 204, 0.08),
     inset 0px 0px 0.5px rgba(0, 0, 0, 0.1);
   border-radius: 16px;
+
+  p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #9d9bb9;
+  }
+
+  h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #21204a;
+    flex-grow: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
 `
 
 export const ImageNft = styled.img``
+
+export const ContainerName = styled.div`
+  margin-right: 30px;
+`
+
+export const ContainerAbout = styled.div`
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+`
