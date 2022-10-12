@@ -8,41 +8,83 @@ import CameraNft from '../../../img/nfts/cameraNft.svg'
 import BrainNft from '../../../img/nfts/brainNft.svg'
 import IconNft from '../../../img/nfts/iconNft.svg'
 
-import { Container, ContainerCollections } from './collectionsStyles'
+import {
+  Container,
+  ContainerCollections,
+  ContainerImages,
+  ContainerDates,
+} from './collectionsStyles'
 
 function CollectionCard() {
   return (
     <Container>
       <ContainerCollections>
-        <div>
-          <img src={DigitalArtNft02} alt="image-nft" />
-        </div>
-        <div>
-          <img src={CameraNft} alt="image-nft" />
-          <img src={BrainNft} alt="image-nft" />
-          <img src={IconNft} alt="image-nft" />
-        </div>
+        <ContainerImages>
+          <div>
+            <img src={DigitalArtNft02} alt="image-nft" />
+          </div>
+          <div>
+            <img src={CameraNft} alt="image-nft" />
+            <img src={BrainNft} alt="image-nft" />
+            <img src={IconNft} alt="image-nft" />
+          </div>
+        </ContainerImages>
+        <ContainerDates>
+          <div>
+            <h1>NFT name Ex Shiba Astronaut</h1>
+            <p>Floor: 19 ETH ~ $108.7K</p>
+          </div>
+          <div>
+            <h1>128 ETH</h1>
+            <p>-29%</p>
+          </div>
+        </ContainerDates>
       </ContainerCollections>
 
       <ContainerCollections>
-        <div>
-          <img src={RaveNft01} alt="image-nft" />
-        </div>
-        <div>
-          <img src={RaveNft02} alt="image-nft" />
-          <img src={BrainNft} alt="image-nft" />
-          <img src={IconNft} alt="image-nft" />
-        </div>
+        <ContainerImages>
+          <div>
+            <img src={RaveNft01} alt="image-nft" />
+          </div>
+          <div>
+            <img src={RaveNft02} alt="image-nft" />
+            <img src={BrainNft} alt="image-nft" />
+            <img src={IconNft} alt="image-nft" />
+          </div>
+        </ContainerImages>
+        <ContainerDates>
+          <div>
+            <h1>NFT name Ex Shiba Astronaut</h1>
+            <p>Floor: 19 ETH ~ $108.7K</p>
+          </div>
+          <div>
+            <h1>128 ETH</h1>
+            <p>-29%</p>
+          </div>
+        </ContainerDates>
       </ContainerCollections>
+
       <ContainerCollections>
-        <div>
-          <img src={DigitalArtNft01} alt="image-nft" />
-        </div>
-        <div>
-          <img src={CameraNft} alt="image-nft" />
-          <img src={BrainNft} alt="image-nft" />
-          <img src={IconNft} alt="image-nft" />
-        </div>
+        <ContainerImages>
+          <div>
+            <img src={DigitalArtNft01} alt="image-nft" />
+          </div>
+          <div>
+            <img src={CameraNft} alt="image-nft" />
+            <img src={BrainNft} alt="image-nft" />
+            <img src={IconNft} alt="image-nft" />
+          </div>
+        </ContainerImages>
+        <ContainerDates>
+          <div>
+            <h1>NFT name Ex Shiba Astronaut</h1>
+            <p>Floor: 19 ETH ~ $108.7K</p>
+          </div>
+          <div>
+            <h1>128 ETH</h1>
+            <p>-29%</p>
+          </div>
+        </ContainerDates>
       </ContainerCollections>
     </Container>
   )

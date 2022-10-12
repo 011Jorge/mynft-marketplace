@@ -9,11 +9,6 @@ export const Container = styled.div`
 `
 
 export const ContainerCollections = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 16px;
-  gap: 12px;
   width: 400px;
   height: 272px;
   background: rgba(255, 255, 255, 0.6);
@@ -23,5 +18,36 @@ export const ContainerCollections = styled.div`
 
   img {
     margin-right: 8px;
+  }
+`
+
+export const ContainerImages = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 12px;
+`
+
+export const ContainerDates = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #282329;
+  }
+
+  p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #9d9bb9;
   }
 `
