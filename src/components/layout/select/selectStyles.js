@@ -13,7 +13,6 @@ export const Select = styled.select`
   border-radius: 12px;
   border: none;
   cursor: pointer;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -27,7 +26,6 @@ export const Select = styled.select`
 export const Options = styled.option`
   width: 78px;
   height: 24px;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;

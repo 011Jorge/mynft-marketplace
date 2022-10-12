@@ -16,7 +16,6 @@ export const Logo = styled.img`
 export const ContainerLinks = styled.div``
 
 export const Link = styled.a`
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -39,7 +38,6 @@ export const Search = styled.img`
 export const Button = styled.button`
   width: 210px;
   height: 60px;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 18px;

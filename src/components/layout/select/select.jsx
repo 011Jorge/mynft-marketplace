@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Select, Options } from './selecStyles'
+import { Select, Options } from './selectStyles'
 
 function SelectCurrency() {
   return (

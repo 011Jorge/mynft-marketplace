@@ -19,7 +19,6 @@ export const ContainerItens = styled.button`
     height: 66px;
     margin-top: 25px;
     margin-bottom: 25px;
-    font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -28,10 +27,9 @@ export const ContainerItens = styled.button`
   }
 `
 
-export const H1 = styled.h1`
+export const H1title = styled.h1`
   width: 600px;
   height: 96px;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
@@ -50,7 +48,6 @@ export const ButtonExplore = styled.button`
   height: 60px;
   border-radius: 12px;
   border: none;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -88,7 +85,7 @@ export const IllustrationNft = styled.img`
   }
 `
 
-export const ContainerCards = styled.div`
+export const ContainerSessions = styled.div`
   padding-top: 60px;
   padding-left: 150px;
   height: 100vh;
@@ -104,7 +101,6 @@ export const NavbarCards = styled.div`
 export const H1Cards = styled.h1`
   width: 208px;
   margin-right: 30px;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -115,4 +111,15 @@ export const H1Cards = styled.h1`
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+`
+
+export const ContainerCollections = styled.div``
+
+export const H1 = styled.h1`
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  color: #21204a;
+  margin-right: 30px;
 `
