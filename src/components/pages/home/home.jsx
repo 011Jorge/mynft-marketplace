@@ -2,6 +2,7 @@ import React from 'react'
 
 import iconArrow from '../../../img/itens/arrow.svg'
 import iconNft from '../../../img/itens/illustrationNft.svg'
+import TopArtists from '../../layout/artists/artists'
 import Cards from '../../layout/cards/cards'
 import CollectionCard from '../../layout/collections/collections'
 import Navbar from '../../layout/navbar/navbar'
@@ -54,6 +55,12 @@ function Home() {
           <SelectCurrency />
         </NavbarCards>
         <CollectionCard />
+      </ContainerSessions>
+      <ContainerSessions>
+        <NavbarCards>
+          <H1>Top artists</H1>
+        </NavbarCards>
+        <TopArtists />
       </ContainerSessions>
     </ContainerHome>
   )
