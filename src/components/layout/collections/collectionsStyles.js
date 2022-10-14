@@ -4,8 +4,8 @@ export const Container = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: 40px;
-  gap: 200px;
+  margin-top: 50px;
+  gap: 250px;
 `
 
 export const ContainerCollections = styled.div`

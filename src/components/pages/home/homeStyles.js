@@ -88,14 +88,28 @@ export const IllustrationNft = styled.img`
 export const ContainerSessions = styled.div`
   padding-top: 60px;
   padding-left: 150px;
-  height: 100vh;
   background-color: #edf1ff;
+  padding-top: 200px;
 `
 
 export const NavbarCards = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
+
+  div {
+    width: 110px;
+    text-align: center;
+    padding: 10px 16px 10px 24px;
+    background: #cde2fe;
+    border-radius: 12px;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #476285;
+  }
 `
 
 export const H1Cards = styled.h1`
@@ -113,8 +127,6 @@ export const H1Cards = styled.h1`
   background-clip: text;
 `
 
-export const ContainerCollections = styled.div``
-
 export const H1 = styled.h1`
   font-style: normal;
   font-weight: 600;
@@ -122,4 +134,12 @@ export const H1 = styled.h1`
   line-height: 48px;
   color: #21204a;
   margin-right: 30px;
+`
+
+export const ContainerArtist = styled.div`
+  padding-top: 60px;
+  padding-left: 150px;
+  background-color: #edf1ff;
+  padding-top: 200px;
+  padding-bottom: 200px;
 `

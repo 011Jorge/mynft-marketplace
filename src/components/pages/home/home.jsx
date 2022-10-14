@@ -19,6 +19,7 @@ import {
   NavbarCards,
   H1Cards,
   H1,
+  ContainerArtist,
 } from './homeStyles'
 
 function Home() {
@@ -56,12 +57,13 @@ function Home() {
         </NavbarCards>
         <CollectionCard />
       </ContainerSessions>
-      <ContainerSessions>
+      <ContainerArtist>
         <NavbarCards>
           <H1>Top artists</H1>
+          <div>Music</div>
         </NavbarCards>
         <TopArtists />
-      </ContainerSessions>
+      </ContainerArtist>
     </ContainerHome>
   )
 }
