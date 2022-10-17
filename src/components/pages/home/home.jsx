@@ -7,7 +7,8 @@ import Cards from '../../layout/cards/cards'
 import CollectionCard from '../../layout/collections/collections'
 import Navbar from '../../layout/navbar/navbar'
 import SelectCurrency from '../../layout/select/select'
-import Trending from '../../../components/layout/trending/trending'
+import Trending from '../../layout/trending/trending'
+import ListArt from '../../layout/listArt/listArt'
 
 import {
   ContainerHome,
@@ -71,6 +72,9 @@ function Home() {
           <SelectCurrency />
         </NavbarCards>
         <Trending />
+      </ContainerSessions>
+      <ContainerSessions>
+        <ListArt />
       </ContainerSessions>
     </ContainerHome>
   )
