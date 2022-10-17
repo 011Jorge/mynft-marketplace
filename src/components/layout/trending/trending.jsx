@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaRegClock } from 'react-icons/fa'
 
 import TrendingNftOne from '../../../img/nfts/trendingNftOne.svg'
 import TrendingNftTwo from '../../../img/nfts/trendingNftTwo.svg'
@@ -31,7 +32,10 @@ function Cards() {
           <div>
             <p>Best Offer</p>
             <h1>1.5 ETH</h1>
-            <p>4hrs left</p>
+            <p>
+              <FaRegClock />
+              4hrs left
+            </p>
           </div>
         </ContainerAbout>
       </Card>
@@ -50,7 +54,10 @@ function Cards() {
           <div>
             <p>Best Offer</p>
             <h1>1.5 ETH</h1>
-            <p>4hrs left</p>
+            <p>
+              <FaRegClock />
+              4hrs left
+            </p>
           </div>
         </ContainerAbout>
       </Card>
@@ -69,7 +76,10 @@ function Cards() {
           <div>
             <p>Best Offer</p>
             <h1>1.5 ETH</h1>
-            <p>4hrs left</p>
+            <p>
+              <FaRegClock />
+              4hrs left
+            </p>
           </div>
         </ContainerAbout>
       </Card>
@@ -88,7 +98,10 @@ function Cards() {
           <div>
             <p>Best Offer</p>
             <h1>1.5 ETH</h1>
-            <p>4hrs left</p>
+            <p>
+              <FaRegClock />
+              4hrs left
+            </p>
           </div>
         </ContainerAbout>
       </Card>
