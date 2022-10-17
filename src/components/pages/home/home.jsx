@@ -9,6 +9,7 @@ import Navbar from '../../layout/navbar/navbar'
 import SelectCurrency from '../../layout/select/select'
 import Trending from '../../layout/trending/trending'
 import ListArt from '../../layout/listArt/listArt'
+import Categories from '../../layout/categories/categories'
 
 import {
   ContainerHome,
@@ -75,6 +76,9 @@ function Home() {
       </ContainerSessions>
       <ContainerSessions>
         <ListArt />
+      </ContainerSessions>
+      <ContainerSessions>
+        <Categories />
       </ContainerSessions>
     </ContainerHome>
   )
