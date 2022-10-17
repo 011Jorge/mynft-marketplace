@@ -7,6 +7,7 @@ import Cards from '../../layout/cards/cards'
 import CollectionCard from '../../layout/collections/collections'
 import Navbar from '../../layout/navbar/navbar'
 import SelectCurrency from '../../layout/select/select'
+import Trending from '../../../components/layout/trending/trending'
 
 import {
   ContainerHome,
@@ -69,6 +70,7 @@ function Home() {
           <H1>Trending NFTs</H1>
           <SelectCurrency />
         </NavbarCards>
+        <Trending />
       </ContainerSessions>
     </ContainerHome>
   )
