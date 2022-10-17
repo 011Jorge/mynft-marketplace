@@ -64,6 +64,12 @@ function Home() {
         </NavbarCards>
         <TopArtists />
       </ContainerArtist>
+      <ContainerSessions>
+        <NavbarCards>
+          <H1>Trending NFTs</H1>
+          <SelectCurrency />
+        </NavbarCards>
+      </ContainerSessions>
     </ContainerHome>
   )
 }
