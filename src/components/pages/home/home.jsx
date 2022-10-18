@@ -10,6 +10,7 @@ import SelectCurrency from '../../layout/select/select'
 import Trending from '../../layout/trending/trending'
 import ListArt from '../../layout/listArt/listArt'
 import Categories from '../../layout/categories/categories'
+import Premier from '../../layout/premier/premier'
 
 import {
   ContainerHome,
@@ -79,6 +80,9 @@ function Home() {
       </ContainerSessions>
       <ContainerSessions>
         <Categories />
+      </ContainerSessions>
+      <ContainerSessions>
+        <Premier />
       </ContainerSessions>
     </ContainerHome>
   )
