@@ -2,6 +2,8 @@ import React from 'react'
 
 import iconArrow from '../../../img/itens/arrow.svg'
 import iconNft from '../../../img/itens/illustrationNft.svg'
+import WhyNft from '../../../img/itens/whyNfts.svg'
+
 import TopArtists from '../../layout/artists/artists'
 import Cards from '../../layout/cards/cards'
 import CollectionCard from '../../layout/collections/collections'
@@ -83,6 +85,16 @@ function Home() {
       </ContainerSessions>
       <ContainerSessions>
         <Premier />
+      </ContainerSessions>
+      <ContainerSessions
+        style={{
+          textAlign: 'center',
+          backgroundColor: '#EDF1FF',
+          paddingTop: '150px',
+          paddingRight: '100px',
+        }}
+      >
+        <img src={WhyNft} alt="myNft-ad" />
       </ContainerSessions>
     </ContainerHome>
   )
