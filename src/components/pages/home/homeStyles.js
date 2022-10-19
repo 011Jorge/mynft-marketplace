@@ -143,3 +143,8 @@ export const ContainerArtist = styled.div`
   padding-top: 200px;
   padding-bottom: 200px;
 `
+export const ContainerAd = styled.div`
+  text-align: center;
+  background-color: #edf1ff;
+  padding-top: 150px;
+`

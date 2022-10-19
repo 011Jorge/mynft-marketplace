@@ -3,6 +3,7 @@ import React from 'react'
 import iconArrow from '../../../img/itens/arrow.svg'
 import iconNft from '../../../img/itens/illustrationNft.svg'
 import WhyNft from '../../../img/itens/whyNfts.svg'
+import coverDownload from '../../../img/itens/coverDownload.svg'
 
 import TopArtists from '../../layout/artists/artists'
 import Cards from '../../layout/cards/cards'
@@ -13,6 +14,7 @@ import Trending from '../../layout/trending/trending'
 import ListArt from '../../layout/listArt/listArt'
 import Categories from '../../layout/categories/categories'
 import Premier from '../../layout/premier/premier'
+import Benefits from '../../layout/benefits/benefits'
 
 import {
   ContainerHome,
@@ -26,6 +28,7 @@ import {
   H1Cards,
   H1,
   ContainerArtist,
+  ContainerAd,
 } from './homeStyles'
 
 function Home() {
@@ -86,16 +89,15 @@ function Home() {
       <ContainerSessions>
         <Premier />
       </ContainerSessions>
-      <ContainerSessions
-        style={{
-          textAlign: 'center',
-          backgroundColor: '#EDF1FF',
-          paddingTop: '150px',
-          paddingRight: '100px',
-        }}
-      >
+      <ContainerAd>
         <img src={WhyNft} alt="myNft-ad" />
+      </ContainerAd>
+      <ContainerSessions>
+        <Benefits />
       </ContainerSessions>
+      <ContainerAd>
+        <img src={coverDownload} alt="cover-download" />
+      </ContainerAd>
     </ContainerHome>
   )
 }
