@@ -1,9 +1,18 @@
 import React from 'react'
+import {
+  FaEnvelope,
+  FaFacebook,
+  FaYoutube,
+  FaTwitter,
+  FaInstagram,
+  FaTelegramPlane,
+} from 'react-icons/fa'
 
 import iconArrow from '../../../img/itens/arrow.svg'
 import iconNft from '../../../img/itens/illustrationNft.svg'
 import WhyNft from '../../../img/itens/whyNfts.svg'
 import coverDownload from '../../../img/itens/coverDownload.svg'
+import Logo from '../../../img/itens/logo.svg'
 
 import TopArtists from '../../layout/artists/artists'
 import Cards from '../../layout/cards/cards'
@@ -29,6 +38,9 @@ import {
   H1,
   ContainerArtist,
   ContainerAd,
+  Footer,
+  FooterDescription,
+  FooterItems,
 } from './homeStyles'
 
 function Home() {
@@ -98,6 +110,74 @@ function Home() {
       <ContainerAd>
         <img src={coverDownload} alt="cover-download" />
       </ContainerAd>
+      <Footer>
+        <FooterDescription>
+          <div>
+            <img src={Logo} alt="img-logo-myNft" />
+            <h1>MyNFT.com</h1>
+          </div>
+          <p>
+            The world first and largest digital marketplace for crypto
+            collectibles and non-fungible tokens (NFTs). Buy, sell, and discover
+            exclusive digital items.
+          </p>
+        </FooterDescription>
+        <FooterItems>
+          <div>
+            <ul>
+              <li>
+                <a href="#" style={{ fontWeight: 'bold' }}>
+                  MarketPlace
+                </a>
+                <a href="#">Explore</a>
+                <a href="#">How it works</a>
+                <a href="#">Jobs</a>
+                <a href="#">Help center</a>
+                <a href="#">Blogs</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>
+                <a href="#" style={{ fontWeight: 'bold' }}>
+                  Company
+                </a>
+                <a href="#">About us</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Feature</a>
+                <a href="#">Discover</a>
+              </li>
+            </ul>
+          </div>
+          <div className="div-contacts">
+            <h1>Get our lastest updates</h1>
+            <div className="div-email">
+              <FaEnvelope style={{ color: '#fff' }} />
+              <input type="text" placeholder="Your email" />
+              <button type="button">Subscribe</button>
+            </div>
+            <h1>Join our comunity</h1>
+            <div className="div-community">
+              <a href="#">
+                <FaFacebook />
+              </a>
+              <a href="#">
+                <FaYoutube />
+              </a>
+              <a href="#">
+                <FaTwitter />
+              </a>
+              <a href="#">
+                <FaInstagram />
+              </a>
+              <a href="#">
+                <FaTelegramPlane />
+              </a>
+            </div>
+          </div>
+        </FooterItems>
+      </Footer>
     </ContainerHome>
   )
 }

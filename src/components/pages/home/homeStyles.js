@@ -147,4 +147,125 @@ export const ContainerAd = styled.div`
   text-align: center;
   background-color: #edf1ff;
   padding-top: 150px;
+  padding-bottom: 150px;
+`
+
+export const Footer = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #1e1d43;
+`
+
+export const FooterDescription = styled.div`
+  padding: 120px;
+
+  p {
+    width: 324px;
+    height: 88px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #bdcadb;
+    margin-top: 30px;
+  }
+
+  div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+
+    h1 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 36px;
+      color: #fafcff;
+    }
+  }
+`
+
+export const FooterItems = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 70px;
+
+  li {
+    display: flex;
+    flex-direction: column;
+  }
+
+  a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    color: #bdcadb;
+    text-decoration: none;
+  }
+
+  .div-contacts {
+    h1 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      color: #f0f6ff;
+    }
+
+    .div-email {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 20px;
+      margin-bottom: 40px;
+
+      padding: 12px 4px 12px 12px;
+      gap: 5px;
+
+      width: 450px;
+      height: 44px;
+      background: rgba(215, 214, 220, 0.2);
+      border: 1px solid rgba(215, 214, 220, 0.2);
+      border-radius: 12px;
+
+      input {
+        background-color: transparent;
+        border: none;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #9d9bb9;
+        ::placeholder {
+          padding-left: 10px;
+        }
+      }
+
+      button {
+        width: 114px;
+        height: 36px;
+        background: #cde2fe;
+        border-radius: 8px;
+        border: none;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #282329;
+        cursor: pointer;
+      }
+    }
+    .div-community {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 10px;
+    }
+  }
 `
