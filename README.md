@@ -49,7 +49,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
     <td align="center">
       <a href="https://www.instagram.com/coding.jorge/">
-        <img src="https://avatars.githubusercontent.com/u/81838137?v=4" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/81838137?v=4" width="100px;" alt="photo-jorge"/><br>
         <sub>
           <b>Jorge Vicente</b>
         </sub>
