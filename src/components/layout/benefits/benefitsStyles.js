@@ -8,7 +8,17 @@ export const Container = styled.div`
     line-height: 48px;
     color: #21204a;
     text-align: center;
+
+
+    @media (max-width: 600px) {
+      font-size: 25px;
+    }
   }
+
+  @media (max-width: 600px) {
+      text-align: center;
+  }
+
 `
 
 export const ContainerBenefits = styled.div`
@@ -16,6 +26,14 @@ export const ContainerBenefits = styled.div`
   justify-content: space-around;
   flex-direction: row;
   margin-top: 60px;
+
+
+  @media (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
 
   h2 {
     font-style: normal;
@@ -25,6 +43,9 @@ export const ContainerBenefits = styled.div`
     color: #11315b;
     margin-top: 15px;
     margin-bottom: 15px;
+
+
+
   }
 
   p {
