@@ -9,8 +9,8 @@
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
 - [x] Criação da interface
-- [ ] Tranformar em responsivo
-- [ ] Deploy da aplicação
+- [x] Tranformar em responsivo
+- [x] Deploy da aplicação
 - [ ] Concluir o Readme.md
 
 ## 💻 Pré-requisitos
