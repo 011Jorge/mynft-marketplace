@@ -114,16 +114,27 @@ export const IllustrationNft = styled.img`
 `
 
 export const ContainerSessions = styled.div`
-  padding-top: 60px;
   padding-left: 150px;
   background-color: #edf1ff;
   padding-top: 200px;
+
+  @media (max-width: 600px) {
+    padding-left: 10px;
+    padding-top: 100px;
+  }
+
 `
 
 export const NavbarCards = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
+
+  @media (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
   div {
     width: 110px;
@@ -153,6 +164,12 @@ export const H1Cards = styled.h1`
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+
+  @media (max-width: 600px) {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+  }
 `
 
 export const H1 = styled.h1`
@@ -162,21 +179,36 @@ export const H1 = styled.h1`
   line-height: 48px;
   color: #21204a;
   margin-right: 30px;
+
+  @media (max-width: 600px) {
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 10px;
+  }
 `
 
 export const ContainerArtist = styled.div`
-  padding-top: 60px;
   padding-left: 150px;
-  background-color: #edf1ff;
   padding-top: 200px;
   padding-bottom: 200px;
+  background-color: #edf1ff;
+
+  @media (max-width: 600px) {
+    display: none;
+  }
 `
 export const ContainerAd = styled.div`
   text-align: center;
   background-color: #edf1ff;
   padding-top: 150px;
   padding-bottom: 150px;
+
+  @media (max-width: 600px) {
+    display: none;
+  }
 `
+
+export const ImageAd = styled.img``
 
 export const Footer = styled.div`
   display: flex;
@@ -189,6 +221,11 @@ export const Footer = styled.div`
 export const FooterDescription = styled.div`
   padding: 120px;
 
+
+  @media (max-width: 600px) {
+    padding: 1px;
+  }
+
   p {
     width: 324px;
     height: 88px;
@@ -198,6 +235,10 @@ export const FooterDescription = styled.div`
     line-height: 22px;
     color: #bdcadb;
     margin-top: 30px;
+
+    @media (max-width: 600px) {
+      margin-bottom: 110px;
+    }
   }
 
   div {
@@ -213,6 +254,9 @@ export const FooterDescription = styled.div`
       line-height: 36px;
       color: #fafcff;
     }
+    @media (max-width: 600px) {
+        margin-top: 100px;
+      }
   }
 `
 
@@ -222,9 +266,20 @@ export const FooterItems = styled.div`
   align-items: flex-start;
   gap: 70px;
 
+  
+  @media (max-width: 600px) {
+    display: none;
+  }
+
   li {
     display: flex;
     flex-direction: column;
+
+    @media (max-width: 600px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
   }
 
   a {
@@ -237,6 +292,7 @@ export const FooterItems = styled.div`
   }
 
   .div-contacts {
+
     h1 {
       font-style: normal;
       font-weight: 600;
@@ -287,6 +343,7 @@ export const FooterItems = styled.div`
         line-height: 24px;
         color: #282329;
         cursor: pointer;
+
       }
     }
     .div-community {
@@ -295,5 +352,6 @@ export const FooterItems = styled.div`
       align-items: center;
       gap: 10px;
     }
+
   }
 `

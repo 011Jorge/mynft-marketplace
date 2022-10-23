@@ -1,29 +1,29 @@
 import React from 'react'
-// import {
-//   FaEnvelope,
-//   FaFacebook,
-//   FaYoutube,
-//   FaTwitter,
-//   FaInstagram,
-//   FaTelegramPlane,
-// } from 'react-icons/fa'
+import {
+  FaEnvelope,
+  FaFacebook,
+  FaYoutube,
+  FaTwitter,
+  FaInstagram,
+  FaTelegramPlane,
+} from 'react-icons/fa'
 
 import iconArrow from '../../../img/itens/arrow.svg'
 import iconNft from '../../../img/itens/illustrationNft.svg'
-// import WhyNft from '../../../img/itens/whyNfts.svg'
-// import coverDownload from '../../../img/itens/coverDownload.svg'
-// import Logo from '../../../img/itens/logo.svg'
+import WhyNft from '../../../img/itens/whyNfts.svg'
+import coverDownload from '../../../img/itens/coverDownload.svg'
+import Logo from '../../../img/itens/logo.svg'
 
-// import TopArtists from '../../layout/artists/artists'
-// import Cards from '../../layout/cards/cards'
-// import CollectionCard from '../../layout/collections/collections'
+import TopArtists from '../../layout/artists/artists'
+import Cards from '../../layout/cards/cards'
+import CollectionCard from '../../layout/collections/collections'
 import Navbar from '../../layout/navbar/navbar'
-// import SelectCurrency from '../../layout/select/select'
-// import Trending from '../../layout/trending/trending'
-// import ListArt from '../../layout/listArt/listArt'
-// import Categories from '../../layout/categories/categories'
-// import Premier from '../../layout/premier/premier'
-// import Benefits from '../../layout/benefits/benefits'
+import SelectCurrency from '../../layout/select/select'
+import Trending from '../../layout/trending/trending'
+import ListArt from '../../layout/listArt/listArt'
+import Categories from '../../layout/categories/categories'
+import Premier from '../../layout/premier/premier'
+import Benefits from '../../layout/benefits/benefits'
 
 import {
   ContainerHome,
@@ -32,15 +32,16 @@ import {
   ButtonExplore,
   ContainerItens,
   IllustrationNft,
-  // ContainerSessions,
-  // NavbarCards,
-  // H1Cards,
-  // H1,
-  // ContainerArtist,
-  // ContainerAd,
-  // Footer,
-  // FooterDescription,
-  // FooterItems,
+  ContainerSessions,
+  NavbarCards,
+  H1Cards,
+  H1,
+  ContainerArtist,
+  ContainerAd,
+  ImageAd,
+  Footer,
+  FooterDescription,
+  FooterItems,
 } from './homeStyles'
 
 function Home() {
@@ -64,7 +65,7 @@ function Home() {
         </ContainerItens>
         <IllustrationNft src={iconNft} alt="icon-illustration-nft" />
       </ContainerIntroduction>
-      {/* <ContainerSessions>
+      <ContainerSessions>
         <NavbarCards>
           <H1Cards>Hot Auctions</H1Cards>
           <SelectCurrency />
@@ -102,7 +103,7 @@ function Home() {
         <Premier />
       </ContainerSessions>
       <ContainerAd>
-        <img src={WhyNft} alt="myNft-ad" />
+        <ImageAd src={WhyNft} alt="myNft-ad" />
       </ContainerAd>
       <ContainerSessions>
         <Benefits />
@@ -123,6 +124,7 @@ function Home() {
           </p>
         </FooterDescription>
         <FooterItems>
+          <div className='div-list'>
           <div>
             <ul>
               <li>
@@ -150,6 +152,7 @@ function Home() {
               </li>
             </ul>
           </div>
+          </div>   
           <div className="div-contacts">
             <h1>Get our lastest updates</h1>
             <div className="div-email">
@@ -177,7 +180,7 @@ function Home() {
             </div>
           </div>
         </FooterItems>
-      </Footer> */}
+      </Footer>
     </ContainerHome>
   )
 }
