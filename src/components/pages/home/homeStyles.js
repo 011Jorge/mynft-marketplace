@@ -7,6 +7,12 @@ export const ContainerIntroduction = styled.div`
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+
+  @media (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 `
 
 export const ContainerItens = styled.button`
@@ -24,6 +30,13 @@ export const ContainerItens = styled.button`
     font-size: 18px;
     line-height: 22px;
     color: #bdcadb;
+
+    @media (max-width: 600px) {
+      text-align: center;
+      font-size: 15px;
+      width: 300px;
+      margin-bottom: 80px;
+  }
   }
 `
 
@@ -35,6 +48,13 @@ export const H1title = styled.h1`
   font-size: 50px;
   line-height: 48px;
   color: #f0f6ff;
+
+  @media (max-width: 600px) {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+    width: 300px;
+  }
 `
 
 export const ButtonExplore = styled.button`
@@ -59,6 +79,10 @@ export const ButtonExplore = styled.button`
   color: #ffffff;
   background: linear-gradient(256.8deg, #0698f9 13.5%, #f906f9 87.25%);
 
+  @media (max-width: 600px) {
+    margin: 0 auto;
+  }
+
   div {
     width: 40px;
     height: 40px;
@@ -74,7 +98,6 @@ export const ButtonExplore = styled.button`
 
 export const IllustrationNft = styled.img`
   margin-top: 50px;
-
   animation: moveNFT 3s infinite ease-in-out;
   animation-direction: alternate;
 
@@ -82,6 +105,11 @@ export const IllustrationNft = styled.img`
     from {
       transform: translateY(10%) rotate(5deg);
     }
+  }
+
+  @media (max-width: 600px) {
+    display: block;
+    width: 300px;
   }
 `
 
