@@ -124,7 +124,6 @@ function Home() {
           </p>
         </FooterDescription>
         <FooterItems>
-          <div className='div-list'>
           <div>
             <ul>
               <li>
@@ -152,7 +151,6 @@ function Home() {
               </li>
             </ul>
           </div>
-          </div>   
           <div className="div-contacts">
             <h1>Get our lastest updates</h1>
             <div className="div-email">
