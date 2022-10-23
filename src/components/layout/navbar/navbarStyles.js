@@ -5,15 +5,23 @@ export const ContainerNavbar = styled.div`
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
-  align-items: center;
+  align-items: center;  
 `
 
 export const Logo = styled.img`
   width: 50px;
   margin-right: 50px;
+
+  @media (max-width: 600px) {
+    margin: 0 auto;
+  }
 `
 
-export const ContainerLinks = styled.div``
+export const ContainerLinks = styled.div`
+  @media (max-width: 600px){
+    display: none;
+  }
+`
 
 export const Link = styled.a`
   font-style: normal;
@@ -28,11 +36,19 @@ export const Link = styled.a`
 export const ThreePoint = styled.img`
   width: 30px;
   cursor: pointer;
+
+  @media (max-width: 600px){
+    display: none;
+  }
 `
 
 export const Search = styled.img`
   width: 60px;
   cursor: pointer;
+
+  @media (max-width: 600px){
+    display: none;
+  }
 `
 
 export const Button = styled.button`
@@ -47,4 +63,8 @@ export const Button = styled.button`
   border-radius: 12px;
   background-color: transparent;
   cursor: pointer;
+
+  @media (max-width: 600px){
+    display: none;
+  }
 `
