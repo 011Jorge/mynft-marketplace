@@ -5,6 +5,12 @@ export const Container = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+
+    @media (max-width: 600px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
 `
 
 export const ContainerDate = styled.div`
@@ -14,6 +20,12 @@ export const ContainerDate = styled.div`
     font-size: 32px;
     line-height: 48px;
     color: #21204a;
+
+    @media (max-width: 600px) {
+      text-align: center;
+      font-size: 22px;
+      width: 300px;
+    }
   }
 
   p {
@@ -26,6 +38,12 @@ export const ContainerDate = styled.div`
     color: #64609f;
     margin-top: 25px;
     margin-bottom: 25px;
+
+    @media (max-width: 600px) {
+      font-size: 14px;
+      width: 300px;
+      text-align: center;
+    }
   }
 
   button {
@@ -39,6 +57,10 @@ export const ContainerDate = styled.div`
     line-height: 24px;
     color: #6692cc;
     cursor: pointer;
+
+    @media (max-width: 600px) {
+      width: 300px;
+    }
   }
 `
 
@@ -50,5 +72,10 @@ export const ContainerImages = styled.div`
   div {
     display: flex;
     flex-direction: column;
+  }
+
+
+  @media (max-width: 600px) {
+    display: none;
   }
 `
