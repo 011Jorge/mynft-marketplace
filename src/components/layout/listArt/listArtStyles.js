@@ -6,12 +6,24 @@ export const Container = styled.div`
   align-items: center;
   margin-left: 100px;
   gap: 200px;
+
+
+  @media (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
 `
 
 export const ContainerImages = styled.div`
   display: flex;
   flex-direction: row;
   gap: 30px;
+
+  @media (max-width: 600px) {
+    display: none;
+  }
 `
 
 export const CardImage = styled.div`
@@ -50,6 +62,12 @@ export const ContainerDate = styled.div`
     font-size: 32px;
     line-height: 48px;
     color: #21204a;
+
+
+    @media (max-width: 600px) {
+      text-align: center;
+      font-size: 28px;
+    }
   }
 
   p {
@@ -63,6 +81,15 @@ export const ContainerDate = styled.div`
     color: #64609f;
     margin-top: 30px;
     margin-bottom: 30px;
+
+    @media (max-width: 600px) {
+      text-align: center;
+      font-size: 14px;
+      width: 300px;
+      margin: 0 auto;
+      padding-top: 10px;
+      padding-bottom: 20px;
+    }
   }
 
   div {
