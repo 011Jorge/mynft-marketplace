@@ -6,6 +6,13 @@ export const Container = styled.div`
   align-items: center;
   gap: 190px;
   margin-top: 40px;
+
+  @media (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
 `
 
 export const Card = styled.div`
